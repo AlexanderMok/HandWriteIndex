@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head lang="en">
+    <meta charset="UTF-8">
+    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>-->
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/clearfix.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.js"></script>
+	<script>
+       /* $(function(){
+            $("ul li").onmouseover(function(){
+                $(this).find("ul").slideDown("5000");
+            })
+                    .mouseleave(function(){
+                        $(this).find("ul").slideUp("5000");
+                    });
+        });*/
+
+
+      /* $(function () {
+            var $t,leftX, newWidth;
+            $(".header-container-down ul").append('<div class="header-down-block"></div>');
+            $(".header-down-block").width($(".li-list-1").width()).css("left",$(".li-list-1 a").position().left()).data("rightWidth", $(".header-down-block").width());
+            $(".header-container-down ul li").find("a").hover(function () {
+                $t = $(this);
+                leftX = $t.position().left;
+                newWidth = $t.parent().width();
+                $(".header-down-block").stop().animate({
+                    left: leftX,
+                    width: newWidth
+                }, 300)
+            },function(){
+                $(".header-down-block").stop().animate({
+                    left: $(".header-down-block").data("rightLeft"),
+                    width: $(".header-down-block").data("rightWidth")
+                }, 300)
+            })
+        });*/
+
+
+       /* $(function(){
+            $(".li-list").mouseover(function(){
+                $(this).children("ul").show();
+            });
+            $(".li-list").onmouseout(function(){
+                $(this).children("ul").hide();
+            });
+            $(".f-btn").onmouseover(function(){
+                $(this).sibling(0,"span").attr("display","block");
+            });
+            $(".f-btn").onmouseout(function(){
+                $(this).sibling(0,"span").attr("display","none");
+            });
+        });*/
+	</script>
+</head>
+<body>
+<header class="header">
+    <div class="header-inner">
+        <div class="header-container">
+            <div class="header-container-up">
+                <div class="inline-block"><a href="#">图片LOGO</a></div>
+                <p class="inline-block">服务南通</p>
+                <div id="search" class="inline-block">
+                    <form id="form-search" action="#" method="post">
+                        <input class="keyword" type="text" placeholder="搜索"/>
+                        <input class="keyword-btn" type="submit" value="搜索"/>
+                    </form>
+                </div>
+                <div class="special-page">
+                    <a class="item-public" href="#" target="_blank"><img src="#" title="公众活动"><span>公众活动</span></a>
+                    <a class="item-fund" href="#" target="_blank"><img src="#" title="众筹项目"><span>众筹项目</span></a>
+                    <a class="item-index" href="#" target="_blank"><img src="#" title="南通微指数"><span>南通微指数</span></a>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul class="menu-nav">
+                    <li class="nav-list"><a class="li-list li-list-1" href="#">南通大地</a></li>
+                    <li class="nav-list"><a class="li-list li-list-2" href="#">生活资讯</a>
+                        <ul class="nav-drop-down">
+                            <li><a class="li-list-2 li-list-0" href="#">生活资讯</a></li>
+                            <li><a class="li-list-2 li-list-0" href="#">发现趣玩</a></li>
+                            <li><a class="li-list-2 li-list-0" href="#">众筹项目</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-list"><a class="li-list li-list-3" href="#">发现趣玩</a>
+                        <ul class="nav-drop-down">
+                            <li><a class="li-list-3 li-list-0" href="#">出游记</a></li>
+                            <li><a class="li-list-3 li-list-0" href="#">召集令</a></li>
+                            <li><a class="li-list-3 li-list-0" href="#">众言堂</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-list"><a class="li-list li-list-4" href="#">众筹项目</a>
+                        <ul class="nav-drop-down">
+                            <li><a class="li-list-4 li-list-0" href="#">基金</a></li>
+                            <li><a class="li-list-4 li-list-0" href="#">期货</a></li>
+                            <li><a class="li-list-4 li-list-0" href="#">股票</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-list"><a class="li-list li-list-5" href="#">思想人文</a></li>
+                    <li class="nav-list"><a class="li-list li-list-6" href="#">视音地带</a></li>
+                    <li class="nav-right">
+                            <div class="nav-right-btn">APP</div>
+                            <div class="nav-right-btn">关注</div>
+                            <div class="nav-right-btn">报料</div>
+                            <div class="login-btn">登陆</div>
+                            <div class="register-btn">注册</div>
+                            <!--<div class="nav-drop-down">
+                                <form action="#" method="post">
+                                    <div>
+                                        <div>
+                                            <input class="user-input" type="text" placeholder="请输入用户名"/>
+                                            <span id="user-input-name-check"></span>
+                                        </div>
+                                        <div>
+                                            <input class="user-input" type="password" placeholder="请输入密码"/>
+                                            <span id="user-input-psw-check"></span>
+                                        </div>
+                                        <div>
+                                            <button class="user-input-btn" type="submit">登陆</button>
+                                            <input type="checkbox" name="psw"/>下次自动登入
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>-->
+                    </li>
+                </ul>
+            </nav>
+
+            <div id="sign-up" class="reg-modal in" aria-hidden="false">
+                <div class="register-header">
+                    <h1>
+                        <span class="reg-login-btn">登陆</span>
+                        <span class="reg-btn">注册</span>
+                        <div id="closeBtn"></div>
+                    </h1>
+                </div>
+                <div class="register-body">
+                    <form id="register-from">
+                        <div class="reg-group">
+                            <input type="email" name="email" class="reg-ipt reg-email" data-validate="email" placeholder="请输入登陆邮箱" autocomplete="off">
+                            <p class="reg-tip-wrap">
+                                <span>邮箱将作为您的身份识别，请输入有效邮箱！</span>
+                            </p>
+                            <input style="display: none">
+                        </div>
+                        <div class="reg-group">
+                            <input type="password" name="password" class="reg-ipt reg-psw" data-validate="password" placeholder="请输入密码">
+                            <p class="reg-tip-wrap">
+                                <span>请输入6-16位密码，区分大小写，不能使用空格！</span>
+                            </p>
+                        </div>
+                        <div class="reg-group reg-hide">
+                            <input type="password" name="re-password" class="reg-ipt reg-psw" data-validate="password" placeholder="请再次输入密码">
+                            <p class="reg-tip-wrap">
+                                <span>请再次输入密码！</span>
+                            </p>
+                        </div>
+                        <div class="reg-group reg-hide">
+                            <input type="text" name="nickname" class="reg-ipt reg-nick" data-validate="nickname" placeholder="请输入用户昵称">
+                            <p class="reg-tip-wrap">
+                                <span>请输入昵称，2-18位中英文、数字或下划线！</span>
+                            </p>
+                        </div>
+                        <div class="reg-group appendix">
+                            <label>
+                                <input type="checkbox" checked="checked">自动登入
+                            </label>
+                            <a href="#">忘记密码</a>
+                        </div>
+                        <div class="reg-group clearfix">
+                            <!--<p class="reg-tip-wrap"></p>-->
+                            <input type="button" id="reg-btn"  class="btn-full" value="注册">
+                            <input type="button" id="signin-btn"  class="btn-full" value="登录">
+                        </div>
+                    </form>
+                </div>
+                <div class="register-footer"></div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="middle-wrapper">
+    <div class="middle-sub-wrapper clearfix">
+        <!--中间左边开始-->
+        <div class="main">
+            <!--幻灯片切换开始-->
+            <div class="slider-show">
+                <div class="slider-show-container">
+                    <!--<div id="slider-show-wrap">-->
+                        <div class="slider-show-images">
+                            <div class="images-wrapper">
+                                <div class="images-wrapper-inside iwi1st">
+                                    <div class="image-content">
+                                        <img src="image/slide-1.jpg" alt="">
+                                        <a href="#" target="_blank"></a>
+                                        <div class="image-titlebox">
+                                            <div class="image-titlebox-inner">
+                                                <div class="image-titlebox-content">
+                                                    <h1>Title</h1>
+                                                    <div>
+                                                        <span>What Where Who Why</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="image-content">
+                                        <img src="image/slide-2.jpg" alt="">
+                                        <a href="#" target="_blank"></a>
+                                        <div class="image-titlebox">
+                                            <div class="image-titlebox-inner">
+                                                <div class="image-titlebox-content">
+                                                    <h1>Title</h1>
+                                                    <div>
+                                                        <span>What Where Who Why</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="image-content">
+                                        <img src="image/slide-3.jpg" alt="">
+                                        <a href="#" target="_blank"></a>
+                                        <div class="image-titlebox">
+                                            <div class="image-titlebox-inner">
+                                                <div class="image-titlebox-content">
+                                                    <h1>Title</h1>
+                                                    <div>
+                                                        <span>What Where Who Why</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="image-content">
+                                        <img src="image/slide-4.jpg" alt="">
+                                        <a href="#" target="_blank"></a>
+                                        <div class="image-titlebox">
+                                            <div class="image-titlebox-inner">
+                                                <div class="image-titlebox-content">
+                                                    <h1>Title</h1>
+                                                    <div>
+                                                        <span>What Where Who Why What Where Who Why What Where Who Why</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="images-wrapper iwi2nd"></div>
+                                <div class="images-wrapper iwi3rd"></div>
+                            </div>
+                        </div>
+                        <div class="slider-show-timer"></div>
+                        <div class="slider-show-nav">
+                            <span class="slider-show-arrow-right"></span>
+                            <span class="slider-show-arrow-left"></span>
+                        </div>
+                        <div class="slider-show-bullet">
+                            <ul class="bullet-list">
+                                <li class="bullet-list-nav bullet-active"></li>
+                                <li class="bullet-list-nav"></li>
+                                <li class="bullet-list-nav"></li>
+                                <li class="bullet-list-nav"></li>
+                                <li class="bullet-list-nav"></li>
+                            </ul>
+                        </div>
+                  <!--  </div>-->
+                </div>
+            </div>
+            <!--幻灯片切换结束-->
+            <!--瀑布流开始-->
+            <div class="flow"></div>
+            <!--瀑布流结束-->
+        </div>
+        <!--中间左边结束-->
+        <!--中间右边开始-->
+        <aside class="sidebar">
+            <div id="hot-news">
+                <div>
+                    <h2>热新闻</h2>
+                </div>
+                <ul class="news-day">
+                    <li class="today sidebar-active">今日</li>
+                    <li class="three-day">三日</li>
+                    <li class="week">本周</li>
+                </ul>
+                <div class="news-today">
+                    <ol>
+                        <li><a href="#" target="_blank">新闻新闻新闻新闻新闻新闻新闻新闻新闻内敛</a></li>
+                        <li><a href="#" target="_blank">新闻新闻新闻新闻新闻</a></li>
+                        <li><a href="#" target="_blank">新闻新闻新闻新闻新闻</a></li>
+                        <li><a href="#" target="_blank">新闻新闻新闻新闻新闻</a></li>
+                        <li><a href="#" target="_blank">新闻新闻新闻新闻新闻</a></li>
+                        <li><a href="#" target="_blank">新闻新闻新闻新闻新闻</a></li>
+                        <li><a href="#" target="_blank">新闻新闻新闻新闻新闻</a></li>
+                        <li><a href="#" target="_blank">新闻新闻新闻新闻新闻</a></li>
+                        <li><a href="#" target="_blank">新闻新闻新闻新闻新闻</a></li>
+                    </ol>
+                </div>
+                <div class="news-three-days sidebar-hide">
+                    <ol>
+                        <li><a href="javascript:;" target="_blank">三日三日三日</a></li>
+                        <li><a href="javascript:;" target="_blank">三日三日三日</a></li>
+                        <li><a href="javascript:;" target="_blank">三日三日三日</a></li>
+                        <li><a href="javascript:;" target="_blank">三日三日三日</a></li>
+                        <li><a href="javascript:;" target="_blank">三日三日三日</a></li>
+                        <li><a href="javascript:;" target="_blank">三日三日三日s</a></li>
+                    </ol>
+                </div>
+                <div class="news-week sidebar-hide">
+                    <ol>
+                        <li>
+                            <a href="javascript:;" target="_blank">本周本周</a>
+                            <a href="javascript:;" target="_blank">本周本周</a>
+                            <a href="javascript:;" target="_blank">本周本周</a>
+                            <a href="javascript:;" target="_blank">本周本周</a>
+                            <a href="javascript:;" target="_blank">本周本周</a>
+                            <a href="javascript:;" target="_blank">本周本周</a>
+                            <a href="javascript:;" target="_blank">本周本周</a>
+                            <a href="javascript:;" target="_blank">本周本周</a>
+                            <a href="javascript:;" target="_blank">本周本周</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div id="hot-topics">
+                <div>
+                    <h2>热话题</h2>
+                </div>
+                <ul class="news-day">
+                    <li class="today sidebar-active">今日</li>
+                    <li class="three-day">三日</li>
+                    <li class="week">本周</li>
+                </ul>
+                <div class="news-today"></div>
+                <div class="news-three-days sidebar-hide"></div>
+                <div class="news-week sidebar-hide"></div>
+            </div>
+        </aside>
+        <!--中间右边结束-->
+    </div>
+    <!--相关链接开始-->
+    <div class="sub-site">
+        <div class="sub-site-link">
+            <ul class="tab-menu">
+                <li class="on">南通媒体矩阵</li>
+                <li>城市联盟</li>
+                <li>友情链接</li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-content-1">
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                </div>
+                <div class="tab-content-2 tab-hide">
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                </div>
+                <div class="tab-content-3 tab-hide">
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                    <a href="#" target="_blank" rel="nofollow">Economist</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--相关链接结束-->
+</div>
+<footer class="footer">
+    <!--set "footer-inner" for compatibility-->
+    <!--<div class="footer-inner">-->
+        <div class="footer-container">
+            <div class="footer-container-left">
+                <ul>
+                    <li><a class="footer-logo" href="#">此处应是LOGO</a></li>
+                    <li><span>科技公司 版权所有 Copyright &copy; 2015</span></li>
+                </ul>
+            </div>
+            <div class="footer-container-right">
+                <ul>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">联络我们</a></li>
+                    <li><a href="#">加入我们</a></li>
+                    <li><a href="#">广告服务</a></li>
+                    <li><a href="#">编辑部门</a></li>
+                </ul>
+            </div>
+        </div>
+    <!--</div>-->
+</footer>
+<script src="js/SignInRegister.js"></script>
+<script src="js/sidebar.js"></script>
+</body>
+</html>

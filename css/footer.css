@@ -1,0 +1,11 @@
+/*========footer 备选背景色 #3c3c3c #d43f3a #245580==========*/
+.footer,.footer-container {background-color: #3c3c3c; height: 60px;overflow:hidden; clear: both; margin:0 auto;}
+.footer-container {width: 1200px;}
+.footer-container a {color: #FFFFFF;text-decoration: none;}
+.footer .footer-container .footer-logo { url("")}
+.footer .footer-container .footer-container-left {float:left;}
+.footer .footer-container .footer-container-right {float: right; height:50px; line-height:60px;}
+.footer .footer-container .footer-container-left ul { margin: 5px 50px; color: #f5f5f5}
+.footer .footer-container .footer-container-right ul { }
+.footer .footer-container .footer-container-right ul li { padding-left: 20px; float: left;}
+.footer .footer-container .footer-container-right ul li a:hover {color:orange;}
