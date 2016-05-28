@@ -1,2 +1,2 @@
 # HandWriteIndex
-Hand-written Index Page
+Hand-written Index static Page. Html,CSS and Javascript are applied.
